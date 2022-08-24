@@ -1,0 +1,68 @@
+
+.background {
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 1rem;
+  flex-direction:row  ;
+}
+
+.logo{
+  height: 15vh;
+  width: fit-content;
+  margin-right: 1rem;
+}
+
+.logoMobile{
+  position: absolute;
+  top: 1rem ;
+  left: 1rem;
+}
+
+.input{
+  width: 70%;
+  ;
+}
+
+.formUpdateInfo{
+  width: inherit;
+}
+
+.containerForm{ 
+  width: 20%;
+  background-color: transparent;  
+  display: flex;  
+  flex-direction: column; 
+  justify-content: center;  
+  align-items: flex-start;  
+
+}
+
+.containerFormMobile{
+   align-items: center;
+   width: 70%;
+}
+
+.labelStyle{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.buttonSubmit{
+  border-radius: 10px;  
+}
+
+.input{
+  background: #FFFFFF;
+  border: 1px solid #BABABA;
+  border-radius: 10px;
+  width: 100%;
+  /* height: 3.5vh */
+}
+
+.title{
+  align-self: center;
+}
